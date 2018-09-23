@@ -35,18 +35,22 @@ Además cuenta con las vistas para crear una cuenta(<http://localhost:5000/regis
 ## Instalación
 Ejecuta el siguiente comando para instalar todas las dependencias que necesita **BlogCoding**
 
-!Copia .env.example a .env y revisa el valor.
+!Copia .env.example a .env y revisa el valor,
 
 ```shell
-npm install -g json-server
 npm install
 npm run build
 ```
 
 ## Base de Datos
 
+1. Debes tener instalado el paquete de json-server:
 
-Es importante tener corriendo el servidor con la dependencia **json-server**, para que la aplicación pueda consumir los datos.
+```shell
+npm install -g json-server
+```
+
+2. Es importante tener corriendo el servidor con la dependencia **json-server**, para que la aplicación pueda consumir los datos.
 
 ```shell
 npm run json-server
