@@ -35,6 +35,8 @@ Además cuenta con las vistas para crear una cuenta(<http://localhost:5000/regis
 ## Instalación
 Ejecuta el siguiente comando para instalar todas las dependencias que necesita **BlogCoding**
 
+!Copia .env.example a .env y revisa el valor.
+
 ```shell
 npm install
 npm run build
@@ -42,7 +44,6 @@ npm run build
 
 ## Base de Datos
 
-Copia .env.example a .env y revisa el valor.
 
 Es importante tener corriendo el servidor con la dependencia **json-server**, para que la aplicación pueda consumir los datos.
 
