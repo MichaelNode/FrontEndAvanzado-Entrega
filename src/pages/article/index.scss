@@ -1,0 +1,35 @@
+@import '~styles/setting.scss';
+
+.container{
+
+    padding-top: 20px;
+    button{
+        width: 100%;
+    }
+   
+}
+
+.title {
+        padding-right: 15px;
+        font-weight: bold;
+        color:$title-color;
+        text-decoration: underline;
+        text-align: center;
+        padding-bottom: $padding-bott;
+        text-align: center;
+      
+    }
+
+.bt{
+     padding-top: 31px;
+    }
+
+
+    h3{
+        text-decoration: underline !important;
+        padding-bottom: $padding-bott;
+    }
+
+
+
+

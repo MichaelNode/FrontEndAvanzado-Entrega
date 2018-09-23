@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head.ejs') %>
+</head>
+<body>
+  <%- include('../partials/header.ejs') %>
+  <div class="container contact-form-wrapper">
+        <form>
+                <h3 class="title">Create an account</h3>
+                <div class="form-row">
+                   
+                    
+                   
+                        <div class="form-group col-md-4">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="password">Password</label>
+                          <input type="password" class="form-control" name="password" id="password" placeholder="Password"  required>
+                        </div>
+                        <div class="form-group col-md-4">
+                              <label for="inputAddress">Name</label>
+                              <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                            </div>
+                      </div>
+                    
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">City</label>
+                          <input type="text" name="city" id="city" class="form-control" id="inputCity"  required>
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputState">State</label>
+                          <select name="state" id="state" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-2 bt" >
+                            
+                              <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                      </div>
+              
+              </form>
+ 
+  </div>
+  <%- include('../partials/footer.ejs') %>
+</body>
+</html>

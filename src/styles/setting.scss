@@ -1,0 +1,64 @@
+
+
+$white : white;
+$red: red;
+$blue: blue;
+$error: $red;
+$font-family: 'Fira Sans', sans-serif;
+$font-family_2: 'Merriweather', serif;
+$title-color: #495057ab;
+$a-color: #495057;
+$padding-bott: 30px;
+$padding-top : 20px;
+$padding-top-cont: 50px;
+$border-radius: 10px;
+$like-color: #dc3545bf;
+$like-size: 35px;
+$back-color:cornflowerblue;
+$back-size: 24px;
+$desc-article-color: #818182;
+$desc-article-size: 26px;
+$footer-font-size: 22px;
+$nav-color-font: #979797;
+
+
+@mixin result() {
+    text-align: center !important;
+    color: #858a8e;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 25%;
+}
+
+@mixin title() {   
+    padding-right: 15px;
+    font-weight: bold;
+    color:$title-color;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: $padding-bott;
+}
+
+@mixin container() {   
+    padding-right: 15px;
+    font-weight: bold;
+    color:$title-color;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: $padding-bott;
+}
+
+
+@mixin container-component() {   
+    margin: 0 auto;
+    padding-top: $padding-top;
+    justify-content: space-around;
+    float: none;
+}
+
+@mixin card() {   
+    border: none;
+    border-radius: $border-radius;
+}

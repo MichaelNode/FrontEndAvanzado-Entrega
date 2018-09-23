@@ -1,0 +1,19 @@
+@import '~styles/setting.scss';
+
+.container{
+    @include container();  
+    padding-top: $padding-top-cont;
+    button{
+        width: 100%;
+    }
+}
+
+ .title {  
+    @include title();   
+ }
+
+ .bt{
+     padding-top: 31px;
+ }
+
+

@@ -1,0 +1,40 @@
+@import '~styles/setting.scss';
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .title{
+        color: $white;
+        font-size: 30px;
+    }
+
+    .logo{
+        height: 40px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    h3{
+        padding-right: 15px;
+        font-weight: bold;
+        color:$title-color
+    }
+
+    .navbar{
+        background-color: $white ;
+        color: $nav-color-font;
+    }
+
+        a{
+            color:$nav-color-font ;
+            font-weight: bold;  
+        }
+
+}
+
+.fas{
+    font-size: 35px;
+} 

@@ -1,0 +1,19 @@
+@import '~styles/setting.scss';
+
+.article{
+    .card{
+        @include card(); 
+    }
+}
+
+.container{
+    @include container-component();   
+    .card-img-top {
+        border-radius: 4px;
+    }
+}
+
+a{
+    color:$a-color;
+    font-weight: bold;     
+}

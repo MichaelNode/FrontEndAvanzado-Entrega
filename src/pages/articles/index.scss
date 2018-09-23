@@ -1,0 +1,19 @@
+@import '~styles/main.scss';
+@import '~styles/setting.scss';
+
+body{
+   
+    font-family: $font-family;
+    font-family: $font-family_2;
+}
+.container{
+    .article{
+        div { 
+            .div-result{
+                @include result();
+                font-size: 24px;
+            }
+           
+         }
+    }
+}

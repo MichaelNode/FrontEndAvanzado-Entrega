@@ -1,0 +1,25 @@
+@import '~styles/setting.scss';
+
+.message{
+    .card{
+        @include card();
+        
+    }
+}
+
+.container{
+    margin: 0 auto;
+    padding-top: 20px;
+    justify-content: space-around;
+    float: none;
+
+}
+
+a{
+    color:$a-color !important;
+    font-weight: bold;     
+}
+
+.card-message{
+    padding-bottom: 10px;
+}

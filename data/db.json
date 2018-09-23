@@ -1,0 +1,152 @@
+{
+  "messages": [
+    {
+      "name": "fadsfas",
+      "last_name": "affsada",
+      "email": "asfdafs@afds.com",
+      "message": "jkahsdkj",
+      "id_article": 1,
+      "id": 1
+    },
+    {
+      "name": "fadsfas",
+      "last_name": "affsada",
+      "email": "asfdafs@afds.com",
+      "message": "jkahsdkj",
+      "id_article": 1,
+      "id": 8
+    },
+    {
+      "name": "fadsfas",
+      "last_name": "affsada",
+      "email": "asfdafs@afds.com",
+      "message": "jkahsdkj",
+      "id_article": 2,
+      "id": 2
+    },
+    {
+      "name": "fafdsa",
+      "last_name": "adfaf",
+      "email": "adsffas@klajsdf.com",
+      "message": "lkajsdflkj",
+      "id_article": 3,
+      "id": 3
+    },
+    {
+      "name": "jkfdhsajkdsa",
+      "last_name": "ñljdljfa",
+      "email": "ksks@ksks.com",
+      "message": "hkjshjfs",
+      "id_article": 4,
+      "id": 4
+    },
+    {
+      "name": "asdfdsklajLJL",
+      "last_name": "adffa",
+      "email": "jlkjlk@kjasdj.com",
+      "message": "kjasdhf",
+      "id_article": 5,
+      "id": 5
+    },
+    {
+      "name": "asdf",
+      "last_name": "afs",
+      "email": "afds@kjasd.com",
+      "message": "kasjdklfjl",
+      "id_article": 6,
+      "id": 6
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Top Rated Machine Learning and Data Science Courses",
+      "author": "Personal Growth",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1750/0*KjHlYwwqXgtAwsHs",
+      "description": "<div>Note: Some of these courses are free. But if you decide to purchase anything (using the links below) you’ll be financially supporting the Personal Growth publication. Thanks for your support.</div>",
+      "date": "19/06/2018",
+      "url": "https://medium.com/personal-growth/learn-to-code-with-these-top-rated-programming-courses-8ed9c7ba8cfe"
+    },
+    {
+      "id": 2,
+      "title": "Why the Best Things in Life Can’t Be Planned",
+      "author": "Zat Rana",
+      "imageUrl": "https://cdn-images-1.medium.com/max/2000/1*zSeAgvRFlwwYOVYx_VfmVQ.jpeg",
+      "description": "<div>Thales of Miletus, considered the first true philosopher in ancient Greece, lived a simple life. We know him today for his application of early scientific principles to the study of nature. In a way, he was the intersection that caused mythology to diverge away from a world of facts</div>",
+      "date": "19/09/2018",
+      "url": "https://medium.com/personal-growth/why-the-best-things-in-life-cant-be-planned-240933534fc0"
+    },
+    {
+      "id": 3,
+      "title": "Learn To Code With These Top Rated Programming Courses",
+      "author": "Personal Growth",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1400/0*jTaWi8DkbiblXqpZ.jpg",
+      "description": "<div>Note: Some of these courses are free. But if you decide to purchase anything (using the links below) you’ll be financially supporting the Personal Growth publication. Thanks for your support.</div>",
+      "date": "21/06/2018",
+      "url": "https://medium.com/personal-growth/learn-computer-programming-with-these-15-top-rated-courses-cc9d0027460"
+    },
+    {
+      "id": 4,
+      "title": "Command Magicks: How to Manipulate Files and Strings with the Console",
+      "author": "Luciano Strika",
+      "imageUrl": "https://cdn-images-1.medium.com/max/800/1*8SjtkPp6PLAWGnOXY-xxhg.jpeg",
+      "description": "<div>As developers, there are lots of repetitive things we do every day that take away our precious time. Finding ways to automate and optimize those processes is usually very lucrative. Many times we find ourselves sifting through a program’s output looking for the relevant bits and manually moving them into a different file, changing all the capital letters from a sentence into lowercase, or removing all non-numerical characters from a file. The kind of boring, repetitive and error-prone tasks that can pile up if we do them by hand, and turn into a big headache.</div>",
+      "date": "17/09/2018",
+      "url": "https://medium.freecodecamp.org/command-magicks-how-to-manipulate-files-and-strings-with-the-console-3c554e64048"
+    },
+    {
+      "title": "Stop Reading Books And Start Slaying Dragons",
+      "author": "Harry J. Stead",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1400/0*7Tn5cRWKDkQ7NZyP",
+      "id": 5,
+      "description": "<div>Ralph Waldo Emerson left his home in Boston, Massachusetts, in 1833 and sailed across the Atlantic to the Mediterranean island of Malta. His first wife had passed away in 1831 and he was still fraught with grief.</div>",
+      "date": "08/09/2018",
+      "url": "https://medium.com/personal-growth/stop-reading-books-and-start-slaying-dragons-49fc8aca19bd"
+    },
+    {
+      "title": "Web Security: an introduction to HTTP",
+      "author": "Alex Nadalin",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1600/1*OmYKGxDL44CyvPgdQZcWqQ.jpeg",
+      "id": 6,
+      "description": "<div>HTTP is a thing of beauty: a protocol that has survived longer than 20 years without changing much. As we’ve seen in the previous article, browsers interact with web applications through the HTTP protocol, and this is the main reason we’re drilling down on the subject. If users would enter their credit card details on a website and an attacker would be able to intercept the data before it reaches the server, we would definitely be in trouble.</div>",
+      "date": "20/09/2018",
+      "url": "https://medium.freecodecamp.org/web-security-an-introduction-to-http-5fa07140f9b3"
+    },
+    {
+      "title": "Building your own Design Pattern",
+      "author": "Abhishek Kharb",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1250/0*d15lPghBdD_dKi5v.",
+      "id": 7,
+      "description": "<div>Ralph Waldo Emerson left his home in Boston, Massachusetts, in 1833 and sailed across the Atlantic to the Mediterranean island of Malta. His first wife had passed away in 1831 and he was still fraught with grief.</div>",
+      "date": "18/09/2018",
+      "url": "https://medium.com/@abhishek.kharb30/building-your-own-design-pattern-5f30b7d16122"
+    },
+    {
+      "title": "Storing Tweets in a Relational Database",
+      "author": "Christopher Pease",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1000/0*LTwYw_mUeS9ZVM7p",
+      "id": 8,
+      "description": "<div>Twitter is a huge platform, with over 300 million monthly active users. And as tweets contain a limited number of characters, they are ideal for performing sentiment analysis and gauging what people are saying about a company or topic of interest. In this post I will outline the steps to set up a relational SQL database using an ORM, and show two methods for pulling and storing tweets from the Twitter API. The use cases for this type of task are virtually endless, so lets consider that we have an unhealthy (in more ways than one) obsession with PIZZA.</div>",
+      "date": "19/09/2018",
+      "url": "https://towardsdatascience.com/storing-tweets-in-a-relational-database-d2e4e76465b2"
+    },
+    {
+      "title": "Become a Better R Programmer with the Awesome ‘lobstr’ Package",
+      "author": "AMR",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1750/1*SnGc0ocFWc9O8eYwaddxpg.jpeg",
+      "id": 9,
+      "description": "<div>The primary tool for a programmer, is his or her choice of programming language. And when it comes to data science, R has always been my preferred go-to language for building models.</div>",
+      "date": "19/09/2018",
+      "url": "https://medium.com/analytics-vidhya/become-a-better-r-programmer-with-the-awesome-lobstr-package-af97fcd22602"
+    },
+    {
+      "title": "Using Color Psychology to Accelerate Your Web Designs",
+      "author": "Dr. Michael J. Garbade",
+      "imageUrl": "https://cdn-images-1.medium.com/max/1400/0*k0pWEVVhysraLzJ2",
+      "id": 10,
+      "description": "<div>A website is a good marketing strategy for any brand as it helps in commanding authority in the market and boosting reliability among customers. But a website that is poorly formatted and is not visually appealing is not likely to perform as anticipated.</div>",
+      "date": "18/09/2018",
+      "url": "https://medium.com/swlh/using-color-psychology-to-accelerate-your-web-designs-8f5d5b08ba09"
+    }
+  ]
+}
