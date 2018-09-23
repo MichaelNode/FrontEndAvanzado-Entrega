@@ -22,11 +22,11 @@ Además cuenta con las vistas para crear una cuenta(<http://localhost:5000/regis
 
 
 <p align="center">
-  <img width="360" height="400" src="https://github.com/MichaelNode/FrontEndAvanzado-Entrega/blob/master/content/2.jpg?raw=true">
+  <img width="360" height="500" src="https://github.com/MichaelNode/FrontEndAvanzado-Entrega/blob/master/content/2.jpg?raw=true">
 </p>
 
 <p align="center">
-  <img width="360" height="400" src="https://github.com/MichaelNode/FrontEndAvanzado-Entrega/blob/master/content/3.jpg?raw=true">
+  <img width="360" height="500" src="https://github.com/MichaelNode/FrontEndAvanzado-Entrega/blob/master/content/3.jpg?raw=true">
 </p>
 
 
