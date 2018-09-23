@@ -6,11 +6,28 @@ API desarrollada con **JavaScript** y **WebPacks** para proporcionar informació
 **BlogCoding** : Es un prototipo, pero ya cuenta con algunas opciones funcionales, como:
 
 1. Listado de artículos:  permite visualizar un listado de artículos almacenado en el archivo **db.json** que se encuentra en la carpeta data.
+
+<p align="center">
+  <img width="860" height="600" src="https://raw.githubusercontent.com/MichaelNode/FrontEndAvanzado-Entrega/master/content/1.jpg">
+</p>
+
 2. comentarios de artículos: permite agregar comentarios en cada artículo.
+<p align="center">
+  <img width="860" height="600" src="https://raw.githubusercontent.com/MichaelNode/FrontEndAvanzado-Entrega/master/content/4.jpg">
+</p>
+
 3. Búsqueda de articulo: permite realizar búsqueda de artículos, por título de articulo o autor( esta funcionalidad solo esta implementada en las vistas de listado de artículos(<http://localhost:5000/>) y detalle de articulo)
 
 Además cuenta con las vistas para crear una cuenta(<http://localhost:5000/register>) e ingresar al sistema(<http://localhost:5000/login>), las cuales de momento aun no tienen funcionalidad.
 
+
+<p align="center">
+  <img width="360" height="600" src="https://github.com/MichaelNode/FrontEndAvanzado-Entrega/blob/master/content/2.jpg?raw=true">
+</p>
+
+<p align="center">
+  <img width="360" height="600" src="https://github.com/MichaelNode/FrontEndAvanzado-Entrega/blob/master/content/3.jpg?raw=true">
+</p>
 
 
 ## Proceso de instalación 
