@@ -38,6 +38,7 @@ Ejecuta el siguiente comando para instalar todas las dependencias que necesita *
 !Copia .env.example a .env y revisa el valor.
 
 ```shell
+npm install -g json-server
 npm install
 npm run build
 ```
