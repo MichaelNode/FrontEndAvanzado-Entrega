@@ -1,4 +1,21 @@
 {
+  "messages_global": [
+    {
+      "name": "fadsfas",
+      "last_name": "affsada",
+      "email": "asfdafs@afds.com",
+      "message": "jkahsdkj",
+      "id": 1
+    },
+    {
+      "name": "fadsfas",
+      "last_name": "affsada",
+      "email": "asfdafs@afds.com",
+      "message": "jkahsdkj",
+      "id_article": 1,
+      "id": 2
+    }
+  ],
   "messages": [
     {
       "name": "fadsfas",
@@ -23,38 +40,6 @@
       "message": "jkahsdkj",
       "id_article": 2,
       "id": 2
-    },
-    {
-      "name": "fafdsa",
-      "last_name": "adfaf",
-      "email": "adsffas@klajsdf.com",
-      "message": "lkajsdflkj",
-      "id_article": 3,
-      "id": 3
-    },
-    {
-      "name": "jkfdhsajkdsa",
-      "last_name": "ñljdljfa",
-      "email": "ksks@ksks.com",
-      "message": "hkjshjfs",
-      "id_article": 4,
-      "id": 4
-    },
-    {
-      "name": "asdfdsklajLJL",
-      "last_name": "adffa",
-      "email": "jlkjlk@kjasdj.com",
-      "message": "kjasdhf",
-      "id_article": 5,
-      "id": 5
-    },
-    {
-      "name": "asdf",
-      "last_name": "afs",
-      "email": "afds@kjasd.com",
-      "message": "kasjdklfjl",
-      "id_article": 6,
-      "id": 6
     }
   ],
   "articles": [

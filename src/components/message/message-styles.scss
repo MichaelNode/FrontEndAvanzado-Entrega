@@ -2,8 +2,7 @@
 
 .message{
     .card{
-        @include card();
-        
+        @include card(); 
     }
 }
 
@@ -12,10 +11,9 @@
     padding-top: 20px;
     justify-content: space-around;
     float: none;
-
 }
 
-a{
+a {
     color:$a-color !important;
     font-weight: bold;     
 }

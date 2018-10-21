@@ -7,13 +7,11 @@
         width: 100%;
     }
 }
-
- .title {  
+.title {  
     @include title();   
- }
-
- .bt{
-     padding-top: 31px;
- }
+}
+.bt{
+    padding-top: 31px;
+}
 
 

@@ -1,5 +1,3 @@
-
-
 $white : white;
 $red: red;
 $blue: blue;
@@ -20,7 +18,6 @@ $desc-article-color: #818182;
 $desc-article-size: 26px;
 $footer-font-size: 22px;
 $nav-color-font: #979797;
-
 
 @mixin result() {
     text-align: center !important;
@@ -49,7 +46,6 @@ $nav-color-font: #979797;
     text-align: center;
     padding-bottom: $padding-bott;
 }
-
 
 @mixin container-component() {   
     margin: 0 auto;

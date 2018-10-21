@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <%- include('../partials/head.ejs') %>
-</head>
-<body>
-  <%- include('../partials/header.ejs') %>
-  <div class="container">
-        <div id="articles" class=" article row"></div>
-  </div>
-  <div class="container">
-    <div id="article-detail" class="article-detail"></div>
-  </div>
-    <br><br>
-  <div class="container">
-    <h3 class="title">Messages</h3>
-    <div id="message-detail" class="row" > </div>
-  </div>
-      <br><br>
-  <%- include('../partials/message.ejs') %>
-  <br><br>
-  <br><br>
-  <br><br>
-
- 
-  <%- include('../partials/footer.ejs') %>
- 
-</body>
+  <head>
+    <%- include('../partials/head.ejs') %>
+  </head>
+  <body>
+    <%- include('../partials/headers_details.ejs') %>
+    <div class="container">
+      <div id="articles" class=" article row"></div>
+    </div>
+    <div class="container">
+      <section id="article-detail" class="article-detail"></section>
+    </div>
+    <%- include('../partials/message.ejs') %>
+    <div class="container">
+      <h3 class="title">Messages</h3>
+      <section id="message-detail" class="row" > </section>
+    </div>
+    <%- include('../partials/footer.ejs') %>
+  </body>
 </html>

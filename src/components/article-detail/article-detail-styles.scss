@@ -1,93 +1,73 @@
 @import '~styles/setting.scss';
 
 .article-detail {
-   
-  
-    .article-image {
-      max-width: 100%;
-      border-radius: $border-radius;
-      display: block;
-      margin: auto;
-    }
-    .title-container {
-    
-      justify-content: space-between;
-  
-      .article-title {
-        padding-top: 29px;
-        margin-top: 5px;
-        margin-bottom: 0;
-     
-      }
-  
-      .like-button {
-       
-        outline-width: 0;
-        color: $like-color;
-        font-size: $like-size;
-        background-color: transparent;
-        border: none;
-  
-        .fas {
-          animation-name: heartBeat;
-          animation-duration: 1s;
-          animation-iteration-count: infinite;
-          animation-direction: alternate;
-        }
-      }
-    }
-    .article-author {
-      margin-top: 2px;
- 
-    }
-    .back-container{
-        padding-top: 5px;
-        text-align: center;
-
-        .back {
-            text-decoration: none;
-            text-align: center;
-            font-size: $back-size;
-            color: $back-color;
-          }
-
-    }
-   
-
-    .article-detail-description {
-        font-size: $desc-article-size;
-        color:$desc-article-color;
-        text-align: justify;
-        padding-top: 40px;
-        padding-bottom: 20px;
-        font-style: italic;
-
-      }
-
-      .like-container {
-        padding-top: 30px;
-        text-align: center;
-      }
-
-  }
-
-  .btn-pub{
-      width: 100%;
-  }
-
-
-  input {
+  .article-image {
+    max-width: 100%;
+    border-radius: $border-radius;
     display: block;
-    width: 100%;
-    border: 0;
-   
-
-    &.error {
-      border-color: $error;
+    margin: auto;
+  }
+  .title-container {
+    justify-content: space-between;
+    .article-title {
+      padding-top: 29px;
+      margin-top: 5px;
+      margin-bottom: 0;
     }
-
-    &.focus {
-      border-color: $blue;
+    .like-button {
+      outline-width: 0;
+      color: $like-color;
+      font-size: $like-size;
+      background-color: transparent;
+      border: none;
+      .fas {
+        animation-name: heartBeat;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
     }
   }
+  .article-author {
+    margin-top: 2px;
+  }
+  .back-container{
+    padding-top: 5px;
+    text-align: center;
+    .back {
+      text-decoration: none;
+      text-align: center;
+      font-size: $back-size;
+      color: $back-color;
+    }
+  }
+  .article-detail-description {
+    font-size: $desc-article-size;
+    color:$desc-article-color;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-style: italic;
+  }
+  .like-container {
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+
+.btn-pub{
+  width: 100%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: 0;
+  &.error {
+    border-color: $error;
+  }
+  &.focus {
+    border-color: $blue;
+  }
+}
    

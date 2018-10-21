@@ -14,10 +14,10 @@ const articleId = query && query.id;
 import PubSub from 'pubsub-js';
 
 if (articleId) {
-    ArticleServiceInstance.getArticle(articleId).then((articleJSON) => {
+  ArticleServiceInstance.getArticle(articleId).then((articleJSON) => {
     updateArticleDetail(articleJSON);
   });
-    MessageServiceInstance.getMessage(articleId).then((messageJSON) => {
+  MessageServiceInstance.getMessage(articleId).then((messageJSON) => {
     updateMesageDetail(messageJSON);
   });
 }

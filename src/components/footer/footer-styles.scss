@@ -1,7 +1,6 @@
 @import '~styles/setting.scss';
 
 footer {
- 
     box-sizing: border-box;
     position: fixed;
     background-color: $white;
@@ -13,9 +12,7 @@ footer {
     justify-content: center;
     text-align: center;
     font-size: $footer-font-size;
-
     cite{
         font-size: $footer-font-size;
     }
-  
-  }
+}

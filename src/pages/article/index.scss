@@ -1,34 +1,35 @@
 @import '~styles/setting.scss';
 
 .container{
-
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 90px;
     button{
         width: 100%;
     }
-   
 }
 
 .title {
-        padding-right: 15px;
-        font-weight: bold;
-        color:$title-color;
-        text-decoration: underline;
-        text-align: center;
-        padding-bottom: $padding-bott;
-        text-align: center;
-      
-    }
+    padding-right: 15px;
+    font-weight: bold;
+    color:$title-color;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: $padding-bott;
+    text-align: center; 
+}
 
-.bt{
-     padding-top: 31px;
-    }
+.bt {    
+    padding-top: 31px;
+}
 
+h3{
+    text-decoration: underline !important;
+    padding-bottom: $padding-bott;
+}
 
-    h3{
-        text-decoration: underline !important;
-        padding-bottom: $padding-bott;
-    }
+.fix {
+    padding-bottom: 450px;
+}
 
 
 

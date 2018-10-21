@@ -2,12 +2,11 @@
 @import '~styles/setting.scss';
 
 body{
-   
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Merriweather', serif;
 }
 
-            #div-result{
-                @include result();
-                font-size: 24px;
-            }
+#div-result{
+    @include result();
+    font-size: 24px;
+}

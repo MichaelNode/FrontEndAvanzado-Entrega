@@ -2,7 +2,6 @@ class APIService {
   constructor() {
     this.baseUrl = process.env.API_URL;
   }
-
   async get(uri) {
     try {
       const response = await fetch(`${this.baseUrl}${uri}`);
@@ -11,11 +10,10 @@ class APIService {
       }
       return response.json();
     } catch (error) {
-      console.warn('Error', error); // eslint-disable-line no-console
+      console.warn('Error', error); 
       return { error };
     }
   }
-
   async post(body, uri) {
     try {
       const response = await fetch(`${this.baseUrl}${uri}`, {
@@ -30,11 +28,10 @@ class APIService {
       }
       return true;
     } catch (error) {
-      console.warn('Error', error); // eslint-disable-line no-console
+      console.warn('Error', error); 
       return { error };
     }
   }
-
   async search(uri) {
     try {
       const response = await fetch(`${this.baseUrl}${uri}`);
@@ -43,7 +40,7 @@ class APIService {
       }
       return response.json();
     } catch (error) {
-      console.warn('Error', error); // eslint-disable-line no-console
+      console.warn('Error', error); 
       return { error };
     }
   }
